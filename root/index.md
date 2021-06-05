@@ -2,7 +2,7 @@
 
 Do not expect much
 
-##Things I do:
+## Things I do:
 Bug Tracker for discord testers
 Programmer of a yet to be announced bot
 Not much else
