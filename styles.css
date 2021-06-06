@@ -4,3 +4,10 @@ body {
 code {
   font-size: 16px
 }
+.tracker {
+  color:rgb(189, 93, 198);
+  font-size: 16px
+}
+.bughunter {
+  font-size: 12px
+}
