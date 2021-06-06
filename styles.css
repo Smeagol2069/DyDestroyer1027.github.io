@@ -13,6 +13,11 @@ body {
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
   scroll-behavior: smooth;
 }
+code {
+  background-color: #ECEFF4;
+  color: #4C566A;
+  font-weight: lighter;
+}
 .main {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
