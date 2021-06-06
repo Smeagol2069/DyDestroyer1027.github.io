@@ -23,10 +23,18 @@ body {
   box-shadow: rgb(184 194 215 / 25%) 0px 4px 6px, rgb(184 194 215 / 10%) 0px 5px 7px;
   transition: box-shadow 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
 }
+.navigation {
+  margin: 10px auto;
+  padding: 20px 1em;
+  text-align: center;
+}
 .tracker {
   color:rgb(189, 93, 198);
   font-size: 16px
 }
 .bughunter {
   font-size: 12px
+}
+.active {
+  background-color: #A3BE8C;
 }
