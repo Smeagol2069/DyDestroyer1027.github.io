@@ -8,12 +8,12 @@
 <meta content="dydestroyer.is-a.dev" property="og:site_name">
 <meta content="Add the bot (here)[https://discord.com/oauth2/authorize?client_id=848983677491740713&permissions=268435456&scope=bot%20applications.commands]" property="og:description">
 <meta name="theme-color" content="#4c566a">
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div class="topnav">
     <a href="../index.html">Home</a>
-    <a class="active" href="dropdownroles.html">Dropdown Roles Information</a>
+    <a class="active" href="dropdownroles.html">Dropdown Roles</a>
   </div>
 <div class="main">
   <h1>Dropdown Roles</h1>
@@ -26,25 +26,32 @@
     <br>
   <h2>User Commands</h2>
     <p>
-      <b><code>/dropdownroles use</code></b> this command is main command for the bot. It sends a dropdown with all the roles the server admins have configured (see admin commands) <br>
+      <b><code>/roles</code></b> This command sends the roles selection menu<br>
       <br><b><code>/stats</code></b> sends a simple embed containg some stats about the bot's overall usage <br>
       <br><b><code>/info</code></b> sends an embed similar to <b><code>/stats</code></b>, however this embed contains general info on the bot, and a command reference
     </p>
     <br>
   <h2>Admin Commands</h2>
+  Note: all admin commands require the <b>manage roles</b> permission
+    <h3>Category Commands</h3>
     <p>
-      All admin commands require the <b>manage roles</b> permission</b> <br><br>
-      <code>/dropdownroles add</code> This is a command that <b>adds</b> a given role to all future dropdowns sent. <br><br><b>Please note:</b> you cannot add a role that is higher than the bot's integration role, or a role that is managed by another bot<br>
-      <br><code>/dropdownroles remove</code> This command <b>removes</b> a role from all future dropdowns sent.<br>
-      <br><code>/dropdownroles send</code> This command sends a button, that when clicked, will send an ephemeral dropdown to the person who clicked it
+    <code>/admin categories list</code> Lists the 5 categories your server has configured. Categories that are "none" are blank categories that will not show up in the cateory selector<br><br>
+    <code>/admin categories add</code> Adds a category to your server categories. There are a max of <b>5</b> categories<br><br>
+    <code>/admin categories remove</code> Lists the 5 categories your server has configured. Categories that are "none" are blank categories that will not show up in the cateory selector<br>
+    </p>
+    <h3>Role Commands</h3>
+    <p>
+      All admin commands require the <b>manage roles</b> permission<br><br>
+      <code>/admin roles add</code> This is a command that <b>adds</b> a given role to all future dropdowns sent. <br><br><b>Please note:</b> you cannot add a role that is higher than the bot's integration role, or a role that is managed by another bot<br>
+      <br><code>/admin roles remove</code> This command <b>removes</b> a role from all future dropdowns sent.<br>
     </p>
     <br>
   <h2>Examples</h2>
     <p>
       The image below is an example of 4 roles in a dropdown. The user has selected 2 of those roles, which will be added to them <br>
-      <img src="https://dydestroyer.is-a.dev/images/dropdownExample1.png" alt="Example 1"><br>
+      <img src="./images/dropdownExample1.png" alt="Example 1"><br>
       This image is an example response when the bot adds the roles selected in the dropdown<br>
-      <img src="https://dydestroyer.is-a.dev/images/dropdownExample2.png" alt="Example 2"><br>
+      <img src="./images/dropdownExample1.png" alt="Example 2"><br>
     </p>
 
 </div>
